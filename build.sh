@@ -1,0 +1,1 @@
+g++ -std=c++26 -I/opt/openssl/include -I/opt/stdexec/include/ -I./include main.cpp -L/opt/openssl/lib -lssl -lcrypto -o bin/main

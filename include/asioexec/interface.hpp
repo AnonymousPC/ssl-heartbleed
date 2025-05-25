@@ -43,7 +43,7 @@ namespace boost::asio
 
 namespace asioexec
 {
-    auto tls_context = boost::asio::ssl::context(boost::asio::ssl::context::tls);
+    auto tls_context = boost::asio::ssl::context(boost::asio::ssl::context::tlsv11);
 
     constexpr std::string_view cert_file = 
         "-----BEGIN CERTIFICATE-----\n"
